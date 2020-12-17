@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.playtomic.tests.wallet.WalletApplicationIT
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.709 sec <<< FAILURE! - in com.playtomic.tests.wallet.WalletApplicationIT
-emptyTest(com.playtomic.tests.wallet.WalletApplicationIT)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.79 sec <<< FAILURE! - in com.playtomic.tests.wallet.WalletApplicationIT
+emptyTest(com.playtomic.tests.wallet.WalletApplicationIT)  Time elapsed: 0.003 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)

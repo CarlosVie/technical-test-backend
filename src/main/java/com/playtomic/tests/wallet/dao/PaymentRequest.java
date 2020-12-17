@@ -8,5 +8,7 @@ import java.math.BigDecimal;
 @Data
 public class PaymentRequest {
     @NotNull
+    private String uuid;
+    @NotNull
     private BigDecimal amount;
 }

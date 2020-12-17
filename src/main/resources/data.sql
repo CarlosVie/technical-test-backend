@@ -4,3 +4,5 @@ CREATE TABLE wallet (
   uuid VARCHAR(40) PRIMARY KEY,
   balance DECIMAL NOT NULL,
 );
+
+

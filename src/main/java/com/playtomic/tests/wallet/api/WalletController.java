@@ -2,7 +2,8 @@ package com.playtomic.tests.wallet.api;
 
 import com.playtomic.tests.wallet.dao.ChargeRequest;
 import com.playtomic.tests.wallet.dao.PaymentRequest;
-import com.playtomic.tests.wallet.service.PaymentService;
+import com.playtomic.tests.wallet.service.ChargeService;
+import com.playtomic.tests.wallet.service.WalletService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,19 +20,19 @@ public class WalletController {
     private Logger log = LoggerFactory.getLogger(WalletController.class);
 
     @Autowired
-    private PaymentService paymentService;
+    private WalletService service;
 
     @GetMapping(path = "/{id}")
     public void walletById(@PathVariable String id) {
         return;
     }
 
-    @PostMapping(path = "/{id}")
+    @PostMapping(path = "/payment")
     public void payment(@RequestBody PaymentRequest request) {
         return;
     }
 
-    @PostMapping(path = "/{id}/charge")
+    @PostMapping(path = "/charge")
     public void charge(@RequestBody ChargeRequest request) {
         return;
     }

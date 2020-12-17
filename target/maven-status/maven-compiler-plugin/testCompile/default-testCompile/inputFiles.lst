@@ -1,2 +1,2 @@
 /Users/carlosvieira/Documents/Personal/technical-test-backend/src/test/java/com/playtomic/tests/wallet/WalletApplicationIT.java
-/Users/carlosvieira/Documents/Personal/technical-test-backend/src/test/java/com/playtomic/tests/wallet/service/impl/ThirdPartyPaymentServiceTest.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/test/java/com/playtomic/tests/wallet/service/impl/ThirdPartyChargeServiceTest.java
