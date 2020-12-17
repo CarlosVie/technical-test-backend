@@ -1,0 +1,10 @@
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/dao/ChargeRequest.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/service/PaymentService.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/api/WalletController.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/service/impl/ThirdPartyPaymentService.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/dao/PaymentRequest.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/domain/Wallet.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/repository/WalletRepository.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/WalletApplication.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/service/impl/PaymentServiceImpl.java
+/Users/carlosvieira/Documents/Personal/technical-test-backend/src/main/java/com/playtomic/tests/wallet/exception/PaymentServiceException.java

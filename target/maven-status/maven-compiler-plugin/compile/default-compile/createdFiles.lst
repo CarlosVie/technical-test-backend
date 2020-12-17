@@ -1,0 +1,10 @@
+com/playtomic/tests/wallet/WalletApplication.class
+com/playtomic/tests/wallet/repository/WalletRepository.class
+com/playtomic/tests/wallet/service/impl/ThirdPartyPaymentService.class
+com/playtomic/tests/wallet/domain/Wallet.class
+com/playtomic/tests/wallet/service/impl/PaymentServiceImpl.class
+com/playtomic/tests/wallet/service/PaymentService.class
+com/playtomic/tests/wallet/api/WalletController.class
+com/playtomic/tests/wallet/dao/ChargeRequest.class
+com/playtomic/tests/wallet/exception/PaymentServiceException.class
+com/playtomic/tests/wallet/dao/PaymentRequest.class

@@ -1,6 +1,6 @@
 package com.playtomic.tests.wallet.service.impl;
 
-import com.playtomic.tests.wallet.service.PaymentServiceException;
+import com.playtomic.tests.wallet.exception.PaymentServiceException;
 import com.playtomic.tests.wallet.service.PaymentService;
 
 import org.springframework.stereotype.Service;
@@ -20,7 +20,7 @@ public class ThirdPartyPaymentService implements PaymentService {
     @Override
     public void charge(BigDecimal amount) throws PaymentServiceException {
         if (amount.compareTo(threshold) < 0) {
-            throw new PaymentServiceException();
+            throw new PaymentServiceException("Failed to process payment.");
         }
     }
 }
