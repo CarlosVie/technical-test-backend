@@ -1,2 +1,8 @@
-INSERT INTO product (ID,COD_BARRA,DESCRIPTION,NAME,VALUE) VALUES (1,'R8Z 3F6','eleifend vitae, erat. Vivamus nisi. Mauris nulla. Integer','Halla Wong',6639);
+DROP TABLE IF EXISTS wallet;
 
+CREATE TABLE wallet (
+  uuid VARCHAR(40) PRIMARY KEY,
+  balance DECIMAL NOT NULL,
+);
+
+INSERT INTO wallet(uuid, balance) VALUES ('123e4567-e89b-12d3-a456-556642440000', 1)
