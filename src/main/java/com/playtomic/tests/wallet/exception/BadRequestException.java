@@ -4,10 +4,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(value= HttpStatus.BAD_REQUEST)
-public class DataNotFoundException extends RuntimeException {
-    private static final long serialVersionUID = -4013009075081629571L;
-
-    public DataNotFoundException(String message) {
+public class BadRequestException extends RuntimeException{
+    private static final long serialVersionUID = -4013009075081629572L;
+    public BadRequestException(String message) {
         super(message);
     }
 }

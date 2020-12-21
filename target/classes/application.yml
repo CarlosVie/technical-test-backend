@@ -1,12 +1,10 @@
 spring.profiles.active: develop
 server:
   port: 8090
+
 ---
 spring:
   profiles: develop
-  h2:
-    console:
-      enabled=true:
   jpa:
     show_sql: false
     database: H2

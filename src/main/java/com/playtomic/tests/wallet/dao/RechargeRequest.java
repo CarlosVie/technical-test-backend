@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ChargeRequest {
+public class RechargeRequest {
     @NotNull(message = "uuid can not be empty")
     private String uuid;
     @NotNull(message = "amount can not be empty")
